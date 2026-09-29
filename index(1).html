@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="N. Vijay Prakash Chaudhary — Battery R&D, Cell Design and Energy Storage.">
+  <meta name="theme-color" content="#f7f7f4">
+  <title>N. Vijay Prakash Chaudhary</title>
+
+  <style>
+    :root {
+      --bg: #f7f7f4;
+      --text: #171717;
+      --muted: #666660;
+      --line: #d9d9d3;
+      --accent: #1f4f6f;
+      --max: 760px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      width: min(calc(100% - 40px), var(--max));
+      margin: 0 auto;
+      padding: 12vh 0 64px;
+    }
+
+    header { margin-bottom: 72px; }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 7vw, 3.4rem);
+      line-height: 1.08;
+      letter-spacing: -0.045em;
+      font-weight: 650;
+    }
+
+    .role {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    section {
+      padding: 32px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: 0.72rem;
+      line-height: 1;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    p {
+      margin: 0;
+      max-width: 670px;
+    }
+
+    .intro {
+      font-size: clamp(1.08rem, 2.4vw, 1.25rem);
+      line-height: 1.7;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px 32px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .grid li { color: #30302d; }
+
+    .background {
+      display: grid;
+      gap: 8px;
+    }
+
+    .background p { color: #30302d; }
+
+    .linkedin {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin-top: 4px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px solid transparent;
+      transition: border-color .15s ease;
+    }
+
+    .linkedin:hover,
+    .linkedin:focus-visible {
+      border-color: currentColor;
+    }
+
+    .linkedin:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 5px;
+      border-radius: 2px;
+    }
+
+    footer {
+      padding-top: 32px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(calc(100% - 32px), var(--max));
+        padding-top: 9vh;
+      }
+
+      header { margin-bottom: 56px; }
+
+      section { padding: 28px 0; }
+
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>N. Vijay Prakash Chaudhary</h1>
+      <p class="role">Battery R&amp;D · Cell Design · Energy Storage</p>
+    </header>
+
+    <section aria-labelledby="about">
+      <h2 id="about">About</h2>
+      <p class="intro">
+        I work in battery research and development, with interests across
+        lithium-ion and sodium-ion technologies, cell design, electrochemistry,
+        modelling and manufacturing.
+      </p>
+    </section>
+
+    <section aria-labelledby="areas">
+      <h2 id="areas">Areas</h2>
+      <ul class="grid">
+        <li>Cell Design</li>
+        <li>Electrochemistry</li>
+        <li>Lithium-ion</li>
+        <li>Sodium-ion</li>
+        <li>Battery Modelling</li>
+        <li>Manufacturing</li>
+        <li>Energy Storage</li>
+        <li>R&amp;D</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="background">
+      <h2 id="background">Background</h2>
+      <div class="background">
+        <p>Battery R&amp;D &amp; Cell Development · Industry + Research</p>
+        <p>PhD · IIT Kharagpur</p>
+        <p>M.Sc. Physics · Andhra University</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="interests">
+      <h2 id="interests">Current Interests</h2>
+      <p>
+        Battery Cell Design · LFP · Energy Storage · Cell Modelling ·
+        Manufacturing · Circular Economy
+      </p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <!-- Replace the URL below with your exact LinkedIn profile URL if needed. -->
+      <a class="linkedin"
+         href="https://www.linkedin.com/in/nvijayprakash/"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Connect with Vijay Prakash on LinkedIn">
+        Connect on LinkedIn <span aria-hidden="true">↗</span>
+      </a>
+    </section>
+
+    <footer>
+      © 2026 Vijay Prakash
+    </footer>
+  </main>
+</body>
+</html>
